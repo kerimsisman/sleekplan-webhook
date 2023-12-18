@@ -46,11 +46,14 @@
 			<artifactId>rest-assured</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+		</dependency>
 	</dependencies>
 	<build>
-		
-			<finalName>sleekplan-webhook</finalName>
-
+		<finalName>sleekplan-webhook</finalName>
 		<plugins>
 			<plugin>
 				<groupId>${quarkus.platform.group-id}</groupId>
